@@ -4,6 +4,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def hello_world():
+    #function for hello world
     return "Hello world from Flask!."
  
 if __name__ == "__main__":
